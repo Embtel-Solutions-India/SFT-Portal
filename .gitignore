@@ -1,0 +1,34 @@
+# Dependencies & builds
+node_modules/
+dist/
+dist-ssr/
+*.tsbuildinfo
+
+# Secrets — only the .env.example templates are committed
+.env
+.env.*
+!.env.example
+
+# Local runtime data (dev JSON database, local uploads)
+server/data/
+server/uploads/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.local
+
+# Local tooling / docs not part of the app
+.agents/
+.playwright-mcp/
+.claude/
+skills-lock.json
+PRD.md
